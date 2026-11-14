@@ -1,0 +1,4 @@
+project,source_line,text,decision,reason
+g16-mis,35,Auditing & Reporting.,HEADING,a two-word section title; the line before is a complete story and the line after starts a new story
+g16-mis,48,bidirectionally with the repository.,CONTINUATION,"line 47 ends with ""to communicate"", which needs this phrase to complete its meaning"
+g23-archivesspace,8,to support data migration integrity testing.,CONTINUATION,"purpose clause that completes line 7 (""store the AT or Archon source record ids in each ASpace record"")"

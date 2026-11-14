@@ -1,0 +1,9 @@
+method,projects_scope,projects,recall_strict_%,recall_lenient_%
+direct,19 test projects,19,5.9,21.8
+structured,19 test projects,19,6.1,22.3
+agent_draft,19 test projects,19,6.9,22.5
+agent,19 test projects,19,7.1,22.3
+direct_fs,19 test projects,19,6.6,18.2
+react_fs,19 test projects,19,6.8,19.4
+direct_k2_fs,19 test projects,19,14.1,31.4
+react_k2_fs,19 test projects,19,12.8,28.9

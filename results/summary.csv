@@ -1,0 +1,25 @@
+model,method,scope,seeds,recall_%,recall_sd,precision_%,precision_sd,macro_f1_%,macro_f1_sd,term_recall_%,overlap_%,near_copy_%,unsupported_%,calls_per_project,input_tokens_per_project,output_tokens_per_project,seconds_per_project,format_retries_per_project,projects_with_retry_%,matching,threshold
+deepseek,direct,all,3,18.7,3.8,18.7,3.8,18.7,3.8,10.1,49.3,0.5,0.0,1,2214.0,6785.0,57.1,0,0.0,embeddings (all-MiniLM-L6-v2),0.6
+deepseek,direct,product,3,19.3,2.6,18.4,3.9,18.6,3.7,10.4,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6
+deepseek,structured,all,3,19.6,1.9,19.6,1.9,19.6,1.9,9.6,59.7,1.3,0.0,2,6057.0,19488.0,133.7,0,0.0,embeddings (all-MiniLM-L6-v2),0.6
+deepseek,structured,product,3,20.0,1.8,19.2,1.6,19.3,1.5,9.7,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_agent,agent,all,3,18.2,1.2,18.2,1.2,18.2,1.2,10.0,47.8,0.0,0.0,1.11,2465.0,7211.0,84.4,0,0.0,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_agent,agent,product,3,19.0,0.9,18.1,1.4,18.3,1.3,10.0,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_agent,direct,all,3,18.1,1.5,18.1,1.5,18.1,1.5,10.1,47.8,0.8,0.0,1,2214.0,7065.0,80.6,0,0.0,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_agent,direct,product,3,18.8,0.9,18.0,1.6,18.1,1.5,10.0,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_fs,direct,all,3,16.5,1.2,16.5,1.2,16.5,1.2,8.9,50.6,1.1,0.0,1,3569.0,7124.0,51.2,0,0.0,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_fs,direct,product,3,16.9,0.7,16.1,1.4,16.2,1.3,9.1,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_fs,react,all,3,16.4,1.2,16.4,1.2,16.4,1.2,9.8,45.5,1.5,0.0,6.33,27859.0,24217.0,195.1,0.32,22.8,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_fs,react,product,3,17.2,0.7,16.4,1.2,16.5,1.1,10.0,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2,direct,all,3,26.7,0.9,13.4,0.5,17.8,0.6,15.2,44.2,0.6,0.0,1,2214.0,9389.0,86.2,0,0.0,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2,direct,product,3,27.4,0.9,13.3,0.5,17.8,0.6,14.7,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2,structured,all,3,28.9,3.6,14.5,1.8,19.3,2.4,15.7,53.3,1.1,0.0,2,6087.0,21907.0,173.8,0,0.0,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2,structured,product,3,29.4,3.6,14.3,1.8,19.1,2.4,15.6,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2_agent,agent,all,3,27.1,1.3,13.5,0.6,18.0,0.9,16.7,46.9,0.0,0.1,1.21,2884.0,9636.0,95.4,0,0.0,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2_agent,agent,product,3,27.5,1.2,13.4,0.6,17.9,0.8,16.5,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2_agent,direct,all,3,27.2,1.4,13.6,0.7,18.2,0.9,16.8,47.1,0.7,0.1,1,2214.0,9080.0,82.7,0,0.0,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2_agent,direct,product,3,27.7,1.4,13.5,0.7,18.0,0.8,16.7,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2_fs,direct,all,3,26.4,2.3,13.2,1.2,17.6,1.6,15.0,47.4,1.0,0.0,1.02,3616.0,10091.0,88.1,0.02,1.8,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2_fs,direct,product,3,26.2,2.6,13.1,1.3,17.4,1.7,14.9,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2_fs,react,all,3,24.7,3.4,12.3,1.7,16.5,2.2,14.8,39.5,0.5,0.0,5.96,25810.0,27597.0,279.2,0.25,22.8,embeddings (all-MiniLM-L6-v2),0.6
+deepseek_k2_fs,react,product,3,26.0,3.1,12.2,1.6,16.4,2.1,14.8,,,,,,,,,,embeddings (all-MiniLM-L6-v2),0.6

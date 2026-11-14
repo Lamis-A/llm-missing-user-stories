@@ -1,0 +1,17 @@
+comparison,measure,projects,method_%,baseline_%,diff_pts,better/equal/worse,p_value
+structured vs direct,strict,19,6.1,5.9,0.3,6/10/3,0.635
+structured vs direct,lenient,19,22.3,21.8,0.5,10/2/7,0.7403
+agent vs agent_draft,strict,19,7.1,6.9,0.2,1/18/0,0.3173
+agent vs agent_draft,lenient,19,22.3,22.5,-0.3,1/17/1,0.6547
+agent vs direct,strict,19,7.1,5.9,1.2,8/6/5,0.0867
+agent vs direct,lenient,19,22.3,21.8,0.4,12/2/5,0.5698
+react_fs vs direct_fs,strict,19,6.8,6.6,0.1,7/4/8,0.7328
+react_fs vs direct_fs,lenient,19,19.4,18.2,1.2,10/3/6,0.2144
+react_k2_fs vs direct_k2_fs,strict,19,12.8,14.1,-1.3,7/4/8,0.532
+react_k2_fs vs direct_k2_fs,lenient,19,28.9,31.4,-2.5,5/2/12,0.1182
+direct_k2_fs vs direct_fs,strict,19,14.1,6.6,7.5,13/1/5,0.004
+direct_k2_fs vs direct_fs,lenient,19,31.4,18.2,13.2,18/1/0,0.0002
+react_k2_fs vs react_fs,strict,19,12.8,6.8,6.0,14/2/3,0.0012
+react_k2_fs vs react_fs,lenient,19,28.9,19.4,9.5,15/4/0,0.0007
+direct_fs vs direct,strict,19,6.6,5.9,0.8,8/7/4,0.4326
+direct_fs vs direct,lenient,19,18.2,21.8,-3.6,3/3/13,0.0437

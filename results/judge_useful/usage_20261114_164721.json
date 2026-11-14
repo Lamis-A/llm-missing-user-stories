@@ -1,0 +1,8 @@
+{
+ "calls": 0,
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "providers": {},
+ "judge_model": "meta-llama/llama-3.3-70b-instruct",
+ "date": "2026-11-14 16:47:21"
+}

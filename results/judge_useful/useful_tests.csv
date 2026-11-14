@@ -1,0 +1,17 @@
+comparison,measure,projects,method_%,baseline_%,diff_pts,better/equal/worse,p_value
+structured vs direct,useful,19,91.9,94.7,-2.8,3/4/12,0.0214
+structured vs direct,novel,19,91.9,94.7,-2.8,3/4/12,0.0214
+agent vs agent_draft,useful,19,94.5,94.7,-0.2,0/17/2,0.1797
+agent vs agent_draft,novel,19,94.6,94.8,-0.2,0/17/2,0.1797
+agent vs direct,useful,19,94.5,94.7,-0.3,6/4/9,0.9095
+agent vs direct,novel,19,94.6,94.7,-0.2,6/4/9,0.9547
+react_fs vs direct_fs,useful,19,93.7,93.0,0.7,8/7/4,0.4326
+react_fs vs direct_fs,novel,19,94.3,93.0,1.3,9/7/3,0.2391
+react_k2_fs vs direct_k2_fs,useful,19,96.6,95.3,1.3,12/4/3,0.0609
+react_k2_fs vs direct_k2_fs,novel,19,96.6,95.3,1.3,12/4/3,0.0609
+direct_k2_fs vs direct_fs,useful,19,95.3,93.0,2.3,13/1/5,0.0108
+direct_k2_fs vs direct_fs,novel,19,95.3,93.0,2.3,13/1/5,0.0108
+react_k2_fs vs react_fs,useful,19,96.6,93.7,2.9,11/5/3,0.0131
+react_k2_fs vs react_fs,novel,19,96.6,94.3,2.4,10/6/3,0.023
+direct_fs vs direct,useful,19,93.0,94.7,-1.7,3/5/11,0.0468
+direct_fs vs direct,novel,19,93.0,94.7,-1.7,3/5/11,0.0468

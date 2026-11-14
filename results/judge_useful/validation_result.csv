@@ -1,0 +1,47 @@
+criterion,n,human_yes,judge_yes,agreement,kappa
+relevant,40,40,40,1.0,1.0
+novel,40,32,35,0.775,0.182
+well_formed,40,40,40,1.0,1.0
+useful,40,32,35,0.775,0.182
+
+suggestion,judge_relevant,judge_novel,judge_well_formed,judge_reason
+"As a site visitor, I want to pay for a course or event registration online, so that my registration is confirmed and paid.",True,True,True,clear need
+"As a parent, I want to be able to submit my child's medical form online, so that the camp administrator has the medical information needed to be prepared for an allergy attack.",True,True,True,clear need for online medical form submission
+"As a researcher, I want to define access conditions and embargo periods for my data, so that data can be shared appropriately while protecting sensitive information.",True,True,True,clear need for data access control
+"As a user, I want to see the size of a content file before downloading it, so that I can decide whether the file is too large to download.",True,False,True,similar to S45
+"As a DigitalRecords Archivist, I want to manually change an embargo date on an existing item, so that access is released or delayed according to an administrative decision.",True,True,True,clear need for administrative control over embargo dates
+"As a FABS user, I want to save a draft of my submission and resume it later, so that I don't lose my work if I can't finish in one session.",True,True,True,clear need
+"As a authenticateduser, I want to submit a training proposal for the call for trainings, so that I can be considered to present a training.",True,True,True,clear need for training proposal submission
+"As an administrator, I want the repository to expose sitemaps and structured metadata for search engines, so that deposited items appear high in Google search results.",True,True,True,clear need
+"As a Staff member, I want to issue a building permit after all reviews, fees, and approvals are complete, so that the Applicant can proceed with construction.",True,True,True,clearly states a specific need within the project's scope
+"As a user, I want to search for recycling centers by zip code, so that I can see public information about centers near me.",True,False,True,similar to existing story S1
+"As an UnivITservice, I want to monitor storage usage and enforce quotas per depositor or dataset, so that I can manage capacity and prevent unsustainable storage growth.",True,True,True,clear need for storage management
+"As a User, I want to change my own password, so that I can maintain my account security without administrator intervention.",True,True,True,clear need for self-service password change
+"As a repository manager, I want to assign identifiers to collections, objects, and object components, so that resources can be uniquely cited and referenced.",True,True,True,clear need for unique identifiers
+"As a depositor, I want to delegate deposit and management rights to another person, so that my datasets can be maintained when I am unavailable.",True,True,True,clear need for delegation of rights
+"As an OlderPerson, I want to receive messages on ALFRED, so that I can read messages sent to me.",True,False,True,similar to existing story S48
+"As a camp counselor, I want to view a roster of my assigned campers, so that I can know who is in my group and confirm attendance.",True,True,True,clear need for counselor to view assigned campers
+"As a data scientist, I want to list and explore dataset instances that are available to me, so that I can decide which dataset to use or upgrade.",True,True,True,
+"As an Archivist, I want to manually create and edit Resource Component records, so that I can describe hierarchical components within a Resource.",True,True,True,specific requirement for Resource Component management
+"As a Zooniverse admin, I want to deliver the selected education content to a volunteer, so that the volunteer receives the chosen piece of education.",True,True,True,
+"As a researcher, I want a stable persistent link for each digital object, so that my citations continue to resolve in the future.",True,True,True,clear need for persistent links
+"As a data user, I want a data dictionary for derived FABS fields such as FREC and PPoPCode on the Resources page, so that I can interpret the data correctly.",True,True,True,specific request
+"As a parent, I want to make camp payments online, so that I can complete the necessary payments for my children's enrollment.",True,True,True,clear need for online payment
+"As a library staff member, I want to review and approve submitted items before they become publicly visible, so that I can ensure metadata quality and rights compliance.",True,True,True,specific goal
+"As a data manager, I want to document data quality assurance procedures, so that data quality is maintained during collection and processing.",True,True,True,clear need for data quality assurance
+"As a preservation manager, I want to record preservation actions and outcomes in the DAMS, so that DAMS managers can know the current integrity and format status of files.",True,True,True,clear need for preservation management
+"As an OlderPerson, I want to receive a spoken or visible confirmation after pressing a button, so that I know my command was recognized.",True,True,True,clear need for confirmation feedback
+"As a user, I want to get directions to a selected recycling facility, so that I can reach it efficiently.",True,True,True,clear need for directions to recycling facility
+"As an estimator, I want to select a card from the available estimation sequence, so that I can submit my estimate for the current item.",True,False,True,already covered by existing story S26
+"As a Publisher, I want to replace the resource data of an existing data package in the UI, so that the registry shows the updated data.",True,True,True,clearly states a specific need
+"As a user researcher, I want to schedule interviews with educators and science influencers, so that I can gather feedback from the target audience.",True,False,True,similar to existing story S38
+"As a developer, I want a sandbox or test environment for my apps, so that I can verify them before release.",True,True,True,clear need for testing environment
+"As a Data Publishing User, I want to be notified when a Platform Administrator hides or deletes one of my datasets, so that I know why my dataset is no longer visible.",True,True,True,clear need for notification
+"As a repository manager, I want to view the history of permission changes on an object, so that I can audit who changed access and when.",True,True,True,clear need for auditing and tracking permission changes
+"As a site administrator, I want to manage corporate sponsor accounts and their logos, so that only authorized sponsors appear on the site.",True,True,True,specific goal
+"As a team member, I want to have a beta launch go/no-go decision from stakeholders, so that we know whether the beta is ready to be released on cloud.gov.",True,True,True,clear need for beta launch decision
+"As a moderator, I want to reorder the list of items to be estimated, so that we can estimate them in our preferred order.",True,True,True,new functionality
+"As a Publisher, I want to specify a license for my data package, so that consumers know how they are allowed to use and share the data.",True,True,True,clearly states a specific need
+"As a researcher, I want to export my log book pages and files in a portable format, so that I can preserve or use them outside Neurohub.",True,True,True,clear need for data portability
+"As a User, I want to register an account and log in to OpenSpending, so that I can access role-specific features assigned to me.",True,True,True,basic user management functionality
+"As an Inspection Staff member, I want to record inspection results, so that the outcome is captured and any required next steps are triggered.",True,True,True,clearly states a specific need within the project's scope

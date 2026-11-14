@@ -1,0 +1,236 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4354.10it/s]
+Matching method: embeddings (all-MiniLM-L6-v2), threshold 0.6
+
+model              method      scope     recall   prec.    mF1  overlap  nearcp  calls   tokens
+-----------------------------------------------------------------------------------------------
+deepseek           direct      all        18.7%   18.7%  18.7%    49.3%    0.5%      1   8999.0
+deepseek           direct      product    19.3%   18.4%  18.6%        %       %                
+deepseek           structured  all        19.6%   19.6%  19.6%    59.7%    1.3%      2  25545.0
+deepseek           structured  product    20.0%   19.2%  19.3%        %       %                
+deepseek_agent     agent       all        18.2%   18.2%  18.2%    47.8%    0.0%   1.11   9676.0
+deepseek_agent     agent       product    19.0%   18.1%  18.3%        %       %                
+deepseek_agent     direct      all        18.1%   18.1%  18.1%    47.8%    0.8%      1   9279.0
+deepseek_agent     direct      product    18.8%   18.0%  18.1%        %       %                
+deepseek_fs        direct      all        16.5%   16.5%  16.5%    50.6%    1.1%      1  10693.0
+deepseek_fs        direct      product    16.9%   16.1%  16.2%        %       %                
+deepseek_fs        react       all        16.4%   16.4%  16.4%    45.5%    1.5%   6.33  52076.0
+deepseek_fs        react       product    17.2%   16.4%  16.5%        %       %                
+deepseek_k2        direct      all        26.7%   13.4%  17.8%    44.2%    0.6%      1  11603.0
+deepseek_k2        direct      product    27.4%   13.3%  17.8%        %       %                
+deepseek_k2        structured  all        28.9%   14.5%  19.3%    53.3%    1.1%      2  27994.0
+deepseek_k2        structured  product    29.4%   14.3%  19.1%        %       %                
+deepseek_k2_agent  agent       all        27.1%   13.5%  18.0%    46.9%    0.0%   1.21  12520.0
+deepseek_k2_agent  agent       product    27.5%   13.4%  17.9%        %       %                
+deepseek_k2_agent  direct      all        27.2%   13.6%  18.2%    47.1%    0.7%      1  11294.0
+deepseek_k2_agent  direct      product    27.7%   13.5%  18.0%        %       %                
+deepseek_k2_fs     direct      all        26.4%   13.2%  17.6%    47.4%    1.0%   1.02  13707.0
+deepseek_k2_fs     direct      product    26.2%   13.1%  17.4%        %       %                
+deepseek_k2_fs     react       all        24.7%   12.3%  16.5%    39.5%    0.5%   5.96  53407.0
+deepseek_k2_fs     react       product    26.0%   12.2%  16.4%        %       %                
+
+Saved results/summary.csv, per_project.csv, matches.csv, redundant.csv, threshold_check.csv (60 pairs), redundancy_check.csv (40 pairs)
+
+Reliability (failed = no valid reply after 3 attempts; retry = valid on 2nd/3rd attempt):
+  deepseek_agent seed 1 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_agent seed 1 agent       finished 19/19 | failed 0  | needed a retry 0
+  deepseek_agent seed 2 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_agent seed 2 agent       finished 19/19 | failed 0  | needed a retry 0
+  deepseek_agent seed 3 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_agent seed 3 agent       finished 19/19 | failed 0  | needed a retry 0
+  deepseek_fs seed 1 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_fs seed 1 react       finished 19/19 | failed 0  | needed a retry 4
+  deepseek_fs seed 2 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_fs seed 2 react       finished 19/19 | failed 0  | needed a retry 4
+  deepseek_fs seed 3 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_fs seed 3 react       finished 19/19 | failed 0  | needed a retry 5
+  deepseek_k2_agent seed 1 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2_agent seed 1 agent       finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2_agent seed 2 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2_agent seed 2 agent       finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2_agent seed 3 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2_agent seed 3 agent       finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2_fs seed 1 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2_fs seed 1 react       finished 19/19 | failed 0  | needed a retry 5
+  deepseek_k2_fs seed 2 direct      finished 19/19 | failed 0  | needed a retry 1
+  deepseek_k2_fs seed 2 react       finished 19/19 | failed 0  | needed a retry 4
+  deepseek_k2_fs seed 3 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2_fs seed 3 react       finished 19/19 | failed 0  | needed a retry 4
+  deepseek_k2 seed 1 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2 seed 1 structured  finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2 seed 2 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2 seed 2 structured  finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2 seed 3 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek_k2 seed 3 structured  finished 19/19 | failed 0  | needed a retry 0
+  deepseek seed 1 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek seed 1 structured  finished 19/19 | failed 0  | needed a retry 0
+  deepseek seed 2 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek seed 2 structured  finished 19/19 | failed 0  | needed a retry 0
+  deepseek seed 3 direct      finished 19/19 | failed 0  | needed a retry 0
+  deepseek seed 3 structured  finished 19/19 | failed 0  | needed a retry 0
+  deepseek all seeds direct      failed 0/57 (0.0%) | needed a retry 0/57 (0.0%)
+  deepseek all seeds structured  failed 0/57 (0.0%) | needed a retry 0/57 (0.0%)
+  deepseek_agent all seeds agent       failed 0/57 (0.0%) | needed a retry 0/57 (0.0%)
+  deepseek_agent all seeds direct      failed 0/57 (0.0%) | needed a retry 0/57 (0.0%)
+  deepseek_fs all seeds direct      failed 0/57 (0.0%) | needed a retry 0/57 (0.0%)
+  deepseek_fs all seeds react       failed 0/57 (0.0%) | needed a retry 13/57 (22.8%)
+  deepseek_k2 all seeds direct      failed 0/57 (0.0%) | needed a retry 0/57 (0.0%)
+  deepseek_k2 all seeds structured  failed 0/57 (0.0%) | needed a retry 0/57 (0.0%)
+  deepseek_k2_agent all seeds agent       failed 0/57 (0.0%) | needed a retry 0/57 (0.0%)
+  deepseek_k2_agent all seeds direct      failed 0/57 (0.0%) | needed a retry 0/57 (0.0%)
+  deepseek_k2_fs all seeds direct      failed 0/57 (0.0%) | needed a retry 1/57 (1.8%)
+  deepseek_k2_fs all seeds react       failed 0/57 (0.0%) | needed a retry 13/57 (22.8%)
+Saved results/reliability.csv
+
+Method vs direct (paired by project, seed-averaged, two-sided Wilcoxon):
+model        comparison             scope    metric          direct  method   diff     b/e/w       p
+deepseek     structured vs direct   all      f1               18.7%   19.6%  +0.9  12/4/3    0.2804
+deepseek     structured vs direct   all      near_copy         0.5%    1.3%  +0.8   2/10/7    0.0569
+deepseek     structured vs direct   all      overlap          49.3%   59.7% +10.4   3/1/15   0.0012
+deepseek     structured vs direct   all      precision        18.7%   19.6%  +0.9  12/4/3    0.2804
+deepseek     structured vs direct   all      recall           18.7%   19.6%  +0.9  12/4/3    0.2804
+deepseek     structured vs direct   product  f1               18.6%   19.3%  +0.8  12/4/3    0.2805
+deepseek     structured vs direct   product  precision        18.4%   19.2%  +0.8  11/5/3    0.3627
+deepseek     structured vs direct   product  recall           19.3%   20.0%  +0.8  12/4/3    0.2805
+deepseek_k2  structured vs direct   all      f1               17.8%   19.3%  +1.5  11/3/5    0.2446
+deepseek_k2  structured vs direct   all      near_copy         0.6%    1.1%  +0.5   3/8/8     0.154
+deepseek_k2  structured vs direct   all      overlap          44.2%   53.3%  +9.1   2/0/17      0.0
+deepseek_k2  structured vs direct   all      precision        13.4%   14.5%  +1.1  11/3/5    0.2143
+deepseek_k2  structured vs direct   all      recall           26.7%   28.9%  +2.2  11/3/5    0.2143
+deepseek_k2  structured vs direct   product  f1               17.8%   19.1%  +1.3  10/3/6    0.2662
+deepseek_k2  structured vs direct   product  precision        13.3%   14.3%  +1.0  10/3/6     0.234
+deepseek_k2  structured vs direct   product  recall           27.4%   29.4%  +2.0  10/3/6     0.234
+deepseek_agent agent vs direct        all      f1               18.1%   18.2%  +0.2   1/18/0    0.3173
+deepseek_agent agent vs direct        all      near_copy         0.8%    0.0%  -0.8   5/14/0    0.0422
+deepseek_agent agent vs direct        all      overlap          47.8%   47.8%  +0.0   0/19/0          
+deepseek_agent agent vs direct        all      precision        18.1%   18.2%  +0.2   1/18/0    0.3173
+deepseek_agent agent vs direct        all      recall           18.1%   18.2%  +0.2   1/18/0    0.3173
+deepseek_agent agent vs direct        product  f1               18.1%   18.3%  +0.2   1/18/0    0.3173
+deepseek_agent agent vs direct        product  precision        18.0%   18.1%  +0.2   1/18/0    0.3173
+deepseek_agent agent vs direct        product  recall           18.8%   19.0%  +0.2   1/18/0    0.3173
+deepseek_k2_agent agent vs direct        all      f1               18.2%   18.0%  -0.1   0/18/1    0.3173
+deepseek_k2_agent agent vs direct        all      near_copy         0.7%    0.0%  -0.7   8/11/0    0.0116
+deepseek_k2_agent agent vs direct        all      overlap          47.1%   46.9%  -0.2   3/16/0    0.1088
+deepseek_k2_agent agent vs direct        all      precision        13.6%   13.5%  -0.1   0/18/1    0.3173
+deepseek_k2_agent agent vs direct        all      recall           27.2%   27.1%  -0.2   0/18/1    0.3173
+deepseek_k2_agent agent vs direct        product  f1               18.0%   17.9%  -0.1   0/18/1    0.3173
+deepseek_k2_agent agent vs direct        product  precision        13.5%   13.4%  -0.1   0/18/1    0.3173
+deepseek_k2_agent agent vs direct        product  recall           27.7%   27.5%  -0.2   0/18/1    0.3173
+deepseek_fs  react vs direct        all      f1               16.5%   16.4%  -0.1   7/3/9    0.9811
+deepseek_fs  react vs direct        all      near_copy         1.1%    1.5%  +0.3   4/10/5    0.6341
+deepseek_fs  react vs direct        all      overlap          50.6%   45.5%  -5.1  11/2/6    0.1075
+deepseek_fs  react vs direct        all      precision        16.5%   16.4%  -0.1   7/3/9    0.9811
+deepseek_fs  react vs direct        all      recall           16.5%   16.4%  -0.1   7/3/9    0.9811
+deepseek_fs  react vs direct        product  f1               16.2%   16.5%  +0.2   7/4/8    0.7174
+deepseek_fs  react vs direct        product  precision        16.1%   16.4%  +0.2   7/4/8    0.7174
+deepseek_fs  react vs direct        product  recall           16.9%   17.2%  +0.3   7/4/8    0.7174
+deepseek_k2_fs react vs direct        all      f1               17.6%   16.5%  -1.1   7/2/10   0.2273
+deepseek_k2_fs react vs direct        all      near_copy         1.0%    0.5%  -0.5   6/12/1    0.0418
+deepseek_k2_fs react vs direct        all      overlap          47.4%   39.5%  -7.9  15/0/4    0.0014
+deepseek_k2_fs react vs direct        all      precision        13.2%   12.3%  -0.8   7/2/10   0.2461
+deepseek_k2_fs react vs direct        all      recall           26.4%   24.7%  -1.7   7/2/10   0.2461
+deepseek_k2_fs react vs direct        product  f1               17.4%   16.4%  -1.1   7/2/10   0.2461
+deepseek_k2_fs react vs direct        product  precision        13.1%   12.2%  -0.8   7/2/10   0.2461
+deepseek_k2_fs react vs direct        product  recall           26.2%   26.0%  -0.2   7/2/10   0.4074
+b/e/w = projects where the method is better / equal / worse than direct. Saved results/stat_tests.csv
+
+Budget 2N vs N, same method (paired by project, seed-averaged, two-sided Wilcoxon), scope = all:
+  deepseek         direct      f1          18.7% ->  17.8%  b/e/w 6/2/11  p 0.2762
+  deepseek         structured  f1          19.6% ->  19.3%  b/e/w 6/2/11  p 0.3087
+  deepseek         direct      near_copy    0.5% ->   0.6%  b/e/w 2/12/5  p 0.3061
+  deepseek         structured  near_copy    1.3% ->   1.1%  b/e/w 5/10/4  p 0.2587
+  deepseek         direct      overlap     49.3% ->  44.2%  b/e/w 14/0/5  p 0.0313
+  deepseek         structured  overlap     59.7% ->  53.3%  b/e/w 14/1/4  p 0.0074
+  deepseek         direct      precision   18.7% ->  13.4%  b/e/w 2/0/17  p 0.0011
+  deepseek         structured  precision   19.6% ->  14.5%  b/e/w 2/1/16  p 0.0018
+  deepseek         direct      recall      18.7% ->  26.7%  b/e/w 16/1/2  p 0.0003
+  deepseek         structured  recall      19.6% ->  28.9%  b/e/w 17/1/1  p 0.0002
+  deepseek_agent   agent       f1          18.2% ->  18.0%  b/e/w 8/2/9  p 0.8871
+  deepseek_agent   direct      f1          18.1% ->  18.2%  b/e/w 9/2/8  p 0.9246
+  deepseek_agent   agent       near_copy    0.0% ->   0.0%  b/e/w 0/19/0  p 
+  deepseek_agent   direct      near_copy    0.8% ->   0.7%  b/e/w 5/9/5  p 0.7213
+  deepseek_agent   agent       overlap     47.8% ->  46.9%  b/e/w 9/2/8  p 0.5699
+  deepseek_agent   direct      overlap     47.8% ->  47.1%  b/e/w 9/2/8  p 0.6025
+  deepseek_agent   agent       precision   18.2% ->  13.5%  b/e/w 3/1/15  p 0.0029
+  deepseek_agent   direct      precision   18.1% ->  13.6%  b/e/w 3/2/14  p 0.005
+  deepseek_agent   agent       recall      18.2% ->  27.1%  b/e/w 16/2/1  p 0.0006
+  deepseek_agent   direct      recall      18.1% ->  27.2%  b/e/w 16/2/1  p 0.0006
+  deepseek_fs      direct      f1          16.5% ->  17.6%  b/e/w 11/1/7  p 0.4204
+  deepseek_fs      react       f1          16.4% ->  16.5%  b/e/w 10/1/8  p 0.8107
+  deepseek_fs      direct      near_copy    1.1% ->   1.0%  b/e/w 5/8/6  p 0.4229
+  deepseek_fs      react       near_copy    1.5% ->   0.5%  b/e/w 7/10/2  p 0.0207
+  deepseek_fs      direct      overlap     50.6% ->  47.4%  b/e/w 12/0/7  p 0.1956
+  deepseek_fs      react       overlap     45.5% ->  39.5%  b/e/w 14/0/5  p 0.016
+  deepseek_fs      direct      precision   16.5% ->  13.2%  b/e/w 4/4/11  p 0.0106
+  deepseek_fs      react       precision   16.4% ->  12.3%  b/e/w 3/2/14  p 0.0011
+  deepseek_fs      direct      recall      16.5% ->  26.4%  b/e/w 16/1/2  p 0.0002
+  deepseek_fs      react       recall      16.4% ->  24.7%  b/e/w 18/1/0  p 0.0002
+Saved results/budget_tests.csv
+492 suggestion sets, 432 distinct, 0 still to judge (judge: meta-llama/llama-3.3-70b-instruct)
+Judge usage this run: 0 calls, 0+0 tokens, providers {}
+Judge: meta-llama/llama-3.3-70b-instruct (functional measure; second to the similarity-based one)
+
+method           projects       n  strict  lenient
+direct           19 test projects  19    5.9%    21.8%
+structured       19 test projects  19    6.1%    22.3%
+agent_draft      19 test projects  19    6.9%    22.5%
+agent            19 test projects  19    7.1%    22.3%
+direct_fs        19 test projects  19    6.6%    18.2%
+react_fs         19 test projects  19    6.8%    19.4%
+direct_k2_fs     19 test projects  19   14.1%    31.4%
+react_k2_fs      19 test projects  19   12.8%    28.9%
+
+Wilcoxon (paired by project, seed-averaged):
+  structured vs direct         strict   n=19    6.1% vs   5.9%  diff  +0.3 |   6/10/3 | p 0.635
+  structured vs direct         lenient  n=19   22.3% vs  21.8%  diff  +0.5 |   10/2/7 | p 0.7403
+  agent vs agent_draft         strict   n=19    7.1% vs   6.9%  diff  +0.2 |   1/18/0 | p 0.3173
+  agent vs agent_draft         lenient  n=19   22.3% vs  22.5%  diff  -0.3 |   1/17/1 | p 0.6547
+  agent vs direct              strict   n=19    7.1% vs   5.9%  diff  +1.2 |    8/6/5 | p 0.0867
+  agent vs direct              lenient  n=19   22.3% vs  21.8%  diff  +0.4 |   12/2/5 | p 0.5698
+  react_fs vs direct_fs        strict   n=19    6.8% vs   6.6%  diff  +0.1 |    7/4/8 | p 0.7328
+  react_fs vs direct_fs        lenient  n=19   19.4% vs  18.2%  diff  +1.2 |   10/3/6 | p 0.2144
+  react_k2_fs vs direct_k2_fs  strict   n=19   12.8% vs  14.1%  diff  -1.3 |    7/4/8 | p 0.532
+  react_k2_fs vs direct_k2_fs  lenient  n=19   28.9% vs  31.4%  diff  -2.5 |   5/2/12 | p 0.1182
+  direct_k2_fs vs direct_fs    strict   n=19   14.1% vs   6.6%  diff  +7.5 |   13/1/5 | p 0.004
+  direct_k2_fs vs direct_fs    lenient  n=19   31.4% vs  18.2%  diff +13.2 |   18/1/0 | p 0.0002
+  react_k2_fs vs react_fs      strict   n=19   12.8% vs   6.8%  diff  +6.0 |   14/2/3 | p 0.0012
+  react_k2_fs vs react_fs      lenient  n=19   28.9% vs  19.4%  diff  +9.5 |   15/4/0 | p 0.0007
+  direct_fs vs direct          strict   n=19    6.6% vs   5.9%  diff  +0.8 |    8/7/4 | p 0.4326
+  direct_fs vs direct          lenient  n=19   18.2% vs  21.8%  diff  -3.6 |   3/3/13 | p 0.0437
+
+Saved results/judge/judge_summary.csv, judge_tests.csv, judge_per_project.csv, judge_pairs.csv
+492 suggestion sets, 432 distinct, 0 still to judge
+Usage this run: 0 calls, 0+0 tokens
+Judge: meta-llama/llama-3.3-70b-instruct - share of suggestions (complementary to recall)
+
+method           projects       n      useful    relevant       novel well_formed useful_not_hidden
+direct           19 test projects  19       94.7%      100.0%       94.7%      100.0%       74.9%
+structured       19 test projects  19       91.9%       99.1%       91.9%       99.8%       71.7%
+agent_draft      19 test projects  19       94.7%       99.0%       94.8%      100.0%       73.7%
+agent            19 test projects  19       94.5%       99.0%       94.6%      100.0%       73.9%
+direct_fs        19 test projects  19       93.0%       99.5%       93.0%      100.0%       76.3%
+react_fs         19 test projects  19       93.7%       98.6%       94.3%      100.0%       75.9%
+direct_k2_fs     19 test projects  19       95.3%       99.4%       95.3%      100.0%       80.5%
+react_k2_fs      19 test projects  19       96.6%       99.9%       96.6%      100.0%       82.9%
+
+'useful_not_hidden' = useful AND not credited to any hidden story by judge.py
+
+Wilcoxon (paired by project, seed-averaged):
+  structured vs direct         useful  n=19   91.9% vs  94.7%  diff  -2.8 |   3/4/12 | p 0.0214
+  structured vs direct         novel   n=19   91.9% vs  94.7%  diff  -2.8 |   3/4/12 | p 0.0214
+  agent vs agent_draft         useful  n=19   94.5% vs  94.7%  diff  -0.2 |   0/17/2 | p 0.1797
+  agent vs agent_draft         novel   n=19   94.6% vs  94.8%  diff  -0.2 |   0/17/2 | p 0.1797
+  agent vs direct              useful  n=19   94.5% vs  94.7%  diff  -0.3 |    6/4/9 | p 0.9095
+  agent vs direct              novel   n=19   94.6% vs  94.7%  diff  -0.2 |    6/4/9 | p 0.9547
+  react_fs vs direct_fs        useful  n=19   93.7% vs  93.0%  diff  +0.7 |    8/7/4 | p 0.4326
+  react_fs vs direct_fs        novel   n=19   94.3% vs  93.0%  diff  +1.3 |    9/7/3 | p 0.2391
+  react_k2_fs vs direct_k2_fs  useful  n=19   96.6% vs  95.3%  diff  +1.3 |   12/4/3 | p 0.0609
+  react_k2_fs vs direct_k2_fs  novel   n=19   96.6% vs  95.3%  diff  +1.3 |   12/4/3 | p 0.0609
+  direct_k2_fs vs direct_fs    useful  n=19   95.3% vs  93.0%  diff  +2.3 |   13/1/5 | p 0.0108
+  direct_k2_fs vs direct_fs    novel   n=19   95.3% vs  93.0%  diff  +2.3 |   13/1/5 | p 0.0108
+  react_k2_fs vs react_fs      useful  n=19   96.6% vs  93.7%  diff  +2.9 |   11/5/3 | p 0.0131
+  react_k2_fs vs react_fs      novel   n=19   96.6% vs  94.3%  diff  +2.4 |   10/6/3 | p 0.023
+  direct_fs vs direct          useful  n=19   93.0% vs  94.7%  diff  -1.7 |   3/5/11 | p 0.0468
+  direct_fs vs direct          novel   n=19   93.0% vs  94.7%  diff  -1.7 |   3/5/11 | p 0.0468
+
+Saved results/judge_useful/useful_summary.csv, useful_tests.csv, useful_per_project.csv

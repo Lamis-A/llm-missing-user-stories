@@ -1,0 +1,39 @@
+PASS 22 raw project files found (22)
+     raw non-empty lines: 1680; lines starting a story: 1677
+PASS semantic removals in log (8) = DUPLICATE decisions (8)
+PASS clean stories = story lines 1677 - exact duplicates 7 - semantic duplicates 8 = 1662 (file has 1662)
+PASS story_id values are unique
+PASS no exact duplicate text left in any project
+PASS every clean story traces back to its raw file (0 missing)
+PASS every DUPLICATE: the dropped story is gone and the kept one is present
+PASS scope_flags.csv lists final stories only (81 rows)
+PASS scope column in the data matches scope_flags.csv
+PASS seed 1: same stories as clean_stories.csv
+PASS seed 1: every project hides round_half_up(20% of n) stories (total 332)
+PASS seed 1: no GROUP pair has one story visible and the other hidden
+PASS seed 2: same stories as clean_stories.csv
+PASS seed 2: every project hides round_half_up(20% of n) stories (total 332)
+PASS seed 2: no GROUP pair has one story visible and the other hidden
+PASS seed 3: same stories as clean_stories.csv
+PASS seed 3: every project hides round_half_up(20% of n) stories (total 332)
+PASS seed 3: no GROUP pair has one story visible and the other hidden
+PASS the three seeds hide different stories
+PASS running prepare_data.py again gives byte-identical data and splits
+PASS seed 1: no hidden story appears (normalized text) in any of 66 prompts (22 extraction + 44 suggestion)
+PASS seed 1: 1 extraction call and 2 suggestion calls (direct + structured) per project
+PASS seed 1: every prompt (both methods, both stages) contains all visible stories of its project
+PASS seed 1: prompts use neutral IDs (S1..Sk), never dataset IDs that could reveal gaps
+PASS seed 2: no hidden story appears (normalized text) in any of 66 prompts (22 extraction + 44 suggestion)
+PASS seed 2: 1 extraction call and 2 suggestion calls (direct + structured) per project
+PASS seed 2: every prompt (both methods, both stages) contains all visible stories of its project
+PASS seed 2: prompts use neutral IDs (S1..Sk), never dataset IDs that could reveal gaps
+PASS seed 3: no hidden story appears (normalized text) in any of 66 prompts (22 extraction + 44 suggestion)
+PASS seed 3: 1 extraction call and 2 suggestion calls (direct + structured) per project
+PASS seed 3: every prompt (both methods, both stages) contains all visible stories of its project
+PASS seed 3: prompts use neutral IDs (S1..Sk), never dataset IDs that could reveal gaps
+PASS negative control: an injected leak of 1 hidden story per project is detected (22 found)
+PASS direct and structured suggestions use the identical system prompt and output format
+PASS an extraction table that misses stories (after retries) is recorded as a failure, not as a result
+PASS the failure record names the stories the table left out
+
+ALL CHECKS PASSED
